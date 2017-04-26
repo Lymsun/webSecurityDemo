@@ -9,6 +9,25 @@
 
     var opinion = {
         backgroundColor: '#2c343c',
+        toolbox: {
+            iconStyle: {
+                normal: {
+                    borderColor: '#fff'
+                },
+                emphasis: {
+                    borderColor: '#b1e4ff'
+                }
+            },
+            feature: {
+                dataZoom: {},
+                brush: {
+                    type: ['rect', 'polygon', 'clear']
+                },
+                saveAsImage: {
+                    show: true
+                }
+            }
+        },
         tooltip : {
             trigger: 'item',
             formatter: "{b} : {d}%"
@@ -80,10 +99,7 @@
                 },
 
                 animationType: 'scale',
-                animationEasing: 'elasticOut'/*,
-                animationDelay: function (idx) {
-                    return Math.random() * 200;
-                }*/
+                animationEasing: 'elasticOut'
             }
         ]
     };

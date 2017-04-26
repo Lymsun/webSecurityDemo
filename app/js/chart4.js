@@ -167,8 +167,8 @@
             }
         },
         grid: {
-            left: 60,
-            bottom: 40,
+            left: 80,
+            bottom: 30,
             width: '20%',
             height: '60%'
         },
@@ -189,7 +189,8 @@
             axisLabel: {
                 margin: 2,
                 textStyle: {
-                    color: '#fff'
+                    color: '#fff',
+                    fontSize: 20
                 }
             }
         },
@@ -211,7 +212,8 @@
             axisLabel: {
                 interval: 0,
                 textStyle: {
-                    color: '#ddd'
+                    color: '#ddd',
+                    fontSize: 20
                 }
             },
             inverse: true,
@@ -276,7 +278,8 @@
                         show: true,
                         position: 'right',
                         textStyle: {
-                            color: '#fff'
+                            color: '#fff',
+                            fontSize: 20
                         }
                     }
                 },

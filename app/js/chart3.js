@@ -21,6 +21,9 @@
     chart3.showLoading();
 
     var opinion = {
+        gird: {
+            left: 60
+        },
         xAxis: {
             type: 'value',
             axisLine: {
