@@ -167,7 +167,7 @@
             }
         },
         grid: {
-            left: 80,
+            left: 90,
             bottom: 30,
             width: '20%',
             height: '60%'
@@ -190,7 +190,7 @@
                 margin: 2,
                 textStyle: {
                     color: '#fff',
-                    fontSize: 20
+                    fontSize: 24
                 }
             }
         },
@@ -213,7 +213,7 @@
                 interval: 0,
                 textStyle: {
                     color: '#ddd',
-                    fontSize: 20
+                    fontSize: 24
                 }
             },
             inverse: true,
@@ -279,7 +279,7 @@
                         position: 'right',
                         textStyle: {
                             color: '#fff',
-                            fontSize: 20
+                            fontSize: 24
                         }
                     }
                 },

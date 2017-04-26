@@ -140,7 +140,7 @@ $(function ($) {
                 margin: 2,
                 textStyle: {
                     color: '#fff',
-                    fontSize: 20
+                    fontSize: 24
                 }
             }
         },
@@ -163,7 +163,7 @@ $(function ($) {
                 interval: 0,
                 textStyle: {
                     color: '#ddd',
-                    fontSize: 20
+                    fontSize: 24
                 }
             },
             inverse: true,
@@ -228,7 +228,7 @@ $(function ($) {
                         position: 'right',
                         textStyle: {
                             color: '#fff',
-                            fontSize: 20
+                            fontSize: 24
                         }
                     }
                 },
